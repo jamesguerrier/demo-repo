@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#49708f, #293f50);
+    padding: 12px 20px;
+}
+.james{
+    font: bold 20px "helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+.Guerrier{
+    color: rgb(187, 255, 0);
+}
+.navigation ul{
+    font: bold 15px "helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+.navigation li{
+    display: inline-block;
+
+}
+.navigation a{
+    background: #395870;
+    color: #fff;
+    background: linear-gradient(#49708f, #293f50);
+    border-right: 1px solid rgba(0, 0, 0, .3);
+    padding: 12px 20px;
+    text-decoration: none;
+}
+.navigation a:hover{
+    background: #314b60;
+    box-shadow: inset(0 0 10 2px rgba(0, 0, 0, .3))
+}
+.navigation li:first-child a{
+    border-radius: 10px 0 0 10px;
+}
+.navigation li:last-child a{
+    border-radius: 10px 0 0 10px;
+}
