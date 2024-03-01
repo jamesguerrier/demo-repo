@@ -43,5 +43,5 @@
     border-radius: 10px 0 0 10px;
 }
 .navigation li:last-child a{
-    border-radius: 10px 0 0 10px;
+    border-radius: 0 10px 10px 0;
 }
